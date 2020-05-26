@@ -93,19 +93,56 @@ h3.heading{
 margin:5px;
 text-align:center;
 color:#ffffff;
+text-shadow: 1px 1px 2px #ffff00;
 }
 p.detail{
 color:#ffffff;
-padding-left:10px;
+padding:8px;
 }
 #mycard{
+font-family: 'Slabo 27px', serif;
+background-color:#002830;
 border-radius:8px;
-margin-top:10px;
-margin:5px;
+margin-top:8px;
+margin:8px;
+box-shadow:2px 2px 4px 0 #99ff00;
 }
-#ytframe{
-margin:10px;
+#mycard:hover{
+box-shadow:0px 0px 10px 2px #99ff00;
 }
-h5{
+h5.heading{
 color:yellow;
+padding:5px;
+}
+#mainh{
+text-align:center;
+padding:8px;
+font-family: 'Balsamiq Sans', cursive;
+}
+.col{
+padding:8px;
+}
+.card{
+margin:5px;
+box-shadow: 2px 2px 5px 0 rgba(255,255,255,0.8);
+padding:8px;
+background-color:#002830;
+}
+.card-body{
+color:white;
+}
+.card-img-top{
+margin-left:20px;
+border-radius:20px;
+height:150px;
+width:150px;
+}
+.card:hover{
+box-shadow: 3px 3px 10px rgba(255,255,255,0.8);
+}
+.card-title{
+font-family: 'Balsamiq Sans', cursive;
+}
+.card-text{
+font-family: 'Slabo 27px', serif;
 }

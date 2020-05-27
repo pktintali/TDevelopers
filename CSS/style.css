@@ -90,6 +90,7 @@ font-size:25px;
 margin-top:58px;
 }
 h3.heading{
+font-family: 'Balsamiq Sans', cursive;
 margin:5px;
 text-align:center;
 color:#ffffff;
@@ -99,7 +100,7 @@ p.detail{
 color:#ffffff;
 padding:8px;
 }
-#mycard{
+.mycard{
 font-family: 'Slabo 27px', serif;
 background-color:#002830;
 border-radius:8px;
@@ -107,7 +108,7 @@ margin-top:8px;
 margin:8px;
 box-shadow:2px 2px 4px 0 #99ff00;
 }
-#mycard:hover{
+.mycard:hover{
 box-shadow:0px 0px 10px 2px #99ff00;
 }
 h5.heading{
@@ -145,4 +146,29 @@ font-family: 'Balsamiq Sans', cursive;
 }
 .card-text{
 font-family: 'Slabo 27px', serif;
+}
+#modiframe{
+box-shadow: 2px 2px 5px 2px yellow;
+}
+
+.embed-responsive-item{
+padding:0px;
+}
+hr{
+background-color:white;
+}
+footer{
+border-top:solid #ccccbb 1px;
+color:white;
+text-align:center;
+font-size:12px;
+background-color:#221020;
+margin-bottom:0px;
+bottom:0px;
+}
+#ftrdiv{
+padding:8px;
+}
+#socialdiv{
+padding-top:8px;
 }

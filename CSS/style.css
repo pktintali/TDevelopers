@@ -172,3 +172,44 @@ padding:8px;
 #socialdiv{
 padding-top:8px;
 }
+table{
+color:yellow;
+}
+.centered{
+padding-top:85px;
+padding-bottom:85px;
+}
+
+.centered2{
+padding-top:105px;
+padding-bottom:105px;
+background-color:#220044;
+animation:bgclr 5s linear 2;
+
+}
+#lrpad{
+padding-left:25px;
+padding-right:25px;
+}
+#covid{
+transform:rotate(0deg);
+animation: rot 5s linear 10;
+}
+
+@keyframes rot{
+0%{transform:rotate(0deg);}
+25%{transform:rotate(90deg);}
+50%{transform:rotate(180deg);}
+75%{transform:rotate(270deg);}
+100%{transform:rotate(360deg);}
+}
+audio { display:none;}
+iframe.audio{
+}
+@keyframes bgclr{
+0%{background-color:#330022;}
+25%{background-color:#442200;}
+50%{background-color:#004422;}
+75%{background-color:#002244;}
+100%{background-color:#220044;}
+}
